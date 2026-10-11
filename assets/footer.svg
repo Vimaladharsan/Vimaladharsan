@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200">
+  <defs>
+    <linearGradient id="au" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/><stop offset="0.5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ec4899"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="50"/></filter>
+    <clipPath id="clip"><rect width="1200" height="200" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="200" fill="#070b14"/>
+    <g filter="url(#blur)" opacity="0.5">
+      <ellipse cx="300" cy="200" rx="260" ry="80" fill="#2dd4bf"><animateTransform attributeName="transform" type="translate" values="0 0;120 -20;0 0" dur="12s" repeatCount="indefinite"/></ellipse>
+      <ellipse cx="900" cy="200" rx="260" ry="80" fill="#ec4899"><animateTransform attributeName="transform" type="translate" values="0 0;-120 -20;0 0" dur="14s" repeatCount="indefinite"/></ellipse>
+      <ellipse cx="600" cy="230" rx="240" ry="70" fill="#8b5cf6"/>
+    </g>
+    <text x="600" y="92" text-anchor="middle" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="800" fill="url(#au)">Thanks for stopping by.</text>
+    <text x="600" y="132" text-anchor="middle" font-family="'JetBrains Mono','Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="17" fill="#a5b4cc">Let's build something people actually use.</text>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="199" rx="24" fill="none" stroke="#1e2a44"/>
+</svg>

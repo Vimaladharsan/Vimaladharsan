@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <defs>
+    <linearGradient id="au" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/><stop offset="0.5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ec4899"/>
+    </linearGradient>
+    <style>
+      .st{opacity:0;animation:up .8s cubic-bezier(.2,.8,.2,1) forwards}
+      @keyframes up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+      .flow{stroke-dasharray:6 14;animation:flow 1.2s linear infinite}
+      @keyframes flow{to{stroke-dashoffset:-20}}
+    </style>
+  </defs>
+  <g font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif">
+    <line x1="60" y1="122" x2="1140" y2="122" stroke="#1e2a44" stroke-width="4" stroke-linecap="round"/>
+    <line class="flow" x1="60" y1="122" x2="1140" y2="122" stroke="url(#au)" stroke-width="4" stroke-linecap="round"/>
+    <g class="st" style="animation-delay:0.30s">
+    <rect x="114.0" y="40" width="72" height="32" rx="16" fill="#0d1424" stroke="#2dd4bf" stroke-opacity="0.6"/>
+    <text x="150" y="61" text-anchor="middle" font-family="'JetBrains Mono','Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="13.5" font-weight="700" letter-spacing="1" fill="#2dd4bf">2025</text>
+    
+    <circle cx="150" cy="122" r="12" fill="#0a0f1c" stroke="#2dd4bf" stroke-width="3"/>
+    <circle cx="150" cy="122" r="5" fill="#2dd4bf"/>
+    <text x="150" y="178" text-anchor="middle" font-size="19" font-weight="800" fill="url(#au)">Joined GitHub</text>
+    <text x="150" y="206" text-anchor="middle" font-size="15" fill="#8b98b0">Algorithms deep-dive:</text>
+    <text x="150" y="228" text-anchor="middle" font-size="15" fill="#8b98b0">Loopy puzzle solver</text>
+  </g><g class="st" style="animation-delay:0.65s">
+    <rect x="369.0" y="40" width="162" height="32" rx="16" fill="#0d1424" stroke="#8b5cf6" stroke-opacity="0.6"/>
+    <text x="450" y="61" text-anchor="middle" font-family="'JetBrains Mono','Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="13.5" font-weight="700" letter-spacing="1" fill="#8b5cf6">JUN – JUL 2026</text>
+    
+    <circle cx="450" cy="122" r="12" fill="#0a0f1c" stroke="#8b5cf6" stroke-width="3"/>
+    <circle cx="450" cy="122" r="5" fill="#8b5cf6"/>
+    <text x="450" y="178" text-anchor="middle" font-size="19" font-weight="800" fill="url(#au)">6 projects in 3 weeks</text>
+    <text x="450" y="206" text-anchor="middle" font-size="15" fill="#8b98b0">ShopEase · Game-Verse · SMS</text>
+    <text x="450" y="228" text-anchor="middle" font-size="15" fill="#8b98b0">HumanForge · Hirely · FocusTube</text>
+  </g><g class="st" style="animation-delay:1.00s">
+    <rect x="696.0" y="40" width="108" height="32" rx="16" fill="#0d1424" stroke="#ec4899" stroke-opacity="0.6"/>
+    <text x="750" y="61" text-anchor="middle" font-family="'JetBrains Mono','Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="13.5" font-weight="700" letter-spacing="1" fill="#ec4899">JUL 2026</text>
+    
+    <circle cx="750" cy="122" r="12" fill="#0a0f1c" stroke="#ec4899" stroke-width="3"/>
+    <circle cx="750" cy="122" r="5" fill="#ec4899"/>
+    <text x="750" y="178" text-anchor="middle" font-size="19" font-weight="800" fill="url(#au)">Built GroundTruth</text>
+    <text x="750" y="206" text-anchor="middle" font-size="15" fill="#8b98b0">MCP agent · 14 tools</text>
+    <text x="750" y="228" text-anchor="middle" font-size="15" fill="#8b98b0">161 test assertions</text>
+  </g><g class="st" style="animation-delay:1.35s">
+    <rect x="969.0" y="40" width="162" height="32" rx="16" fill="#0d1424" stroke="#fbbf24" stroke-opacity="0.6"/>
+    <text x="1050" y="61" text-anchor="middle" font-family="'JetBrains Mono','Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="13.5" font-weight="700" letter-spacing="1" fill="#fbbf24">OCT 2026 · NOW</text>
+    <circle cx="1050" cy="122" r="12" fill="none" stroke="#fbbf24" stroke-width="2"><animate attributeName="r" values="12;30" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="1050" cy="122" r="12" fill="#0a0f1c" stroke="#fbbf24" stroke-width="3"/>
+    <circle cx="1050" cy="122" r="5" fill="#fbbf24"/>
+    <text x="1050" y="178" text-anchor="middle" font-size="19" font-weight="800" fill="url(#au)">Building TrustShare</text>
+    <text x="1050" y="206" text-anchor="middle" font-size="15" fill="#8b98b0">Zero-trust encrypted</text>
+    <text x="1050" y="228" text-anchor="middle" font-size="15" fill="#8b98b0">file sharing</text>
+  </g>
+  </g>
+</svg>

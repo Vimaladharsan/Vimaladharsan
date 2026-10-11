@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbbf24"/><stop offset="0.5" stop-color="#1e2a44"/><stop offset="1" stop-color="#fbbf24"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.1" cy="0" r="0.9">
+      <stop offset="0" stop-color="#fbbf24" stop-opacity="0.16"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .pulse{animation:p 2s ease-in-out infinite}
+      @keyframes p{0%,100%{opacity:1}50%{opacity:.25}}
+      .card{opacity:0;animation:up .8s cubic-bezier(.2,.8,.2,1) 0.60s forwards}
+      @keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+    </style>
+  </defs>
+  <g class="card" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif">
+    <rect x="1.5" y="1.5" width="597" height="357" rx="22" fill="#0d1424"/>
+    <rect x="1.5" y="1.5" width="597" height="357" rx="22" fill="url(#glow)"/>
+    <rect x="1.5" y="1.5" width="597" height="357" rx="22" fill="none" stroke="url(#edge)" stroke-width="2"/>
+    <rect x="32" y="28" width="52" height="52" rx="14" fill="#111a2e" stroke="#fbbf24" stroke-opacity="0.5"/>
+    <text x="58" y="64" text-anchor="middle" font-size="28">🎬</text>
+    <text x="100" y="66" font-size="29" font-weight="800" fill="#e6edf3">FocusTube AI</text>
+    <rect x="411" y="36" width="157" height="30" rx="15" fill="#fbbf24" fill-opacity="0.12" stroke="#fbbf24" stroke-opacity="0.6"/>
+    <circle class="pulse" cx="428" cy="51" r="4.5" fill="#fbbf24"/>
+    <text x="440" y="56" font-family="'JetBrains Mono','Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="12.5" font-weight="700" letter-spacing="1" fill="#fbbf24">IN DEVELOPMENT</text>
+    <text x="32" y="120" font-size="17.5" fill="#8b98b0">A Chrome extension that turns YouTube from a</text><text x="32" y="145" font-size="17.5" fill="#8b98b0">distraction into a focused learning tool.</text>
+    <line x1="32" y1="166" x2="568" y2="166" stroke="#1e2a44"/>
+    <text x="32" y="196" font-size="16.5" fill="#c9d1d9"><tspan fill="#fbbf24">▸</tspan>  Ad-detection engine and settings core built</text><text x="32" y="226" font-size="16.5" fill="#c9d1d9"><tspan fill="#fbbf24">▸</tspan>  Next: focus mode, time-saved and goal analytics</text><text x="32" y="256" font-size="16.5" fill="#c9d1d9"><tspan fill="#fbbf24">▸</tspan>  React + TypeScript on CRXJS + Vite (MV3)</text>
+    <rect x="32" y="292" width="73" height="34" rx="17" fill="#111a2e" stroke="#fbbf24" stroke-opacity="0.45"/><text x="68.5" y="314" text-anchor="middle" font-size="14.5" fill="#c9d1d9">React</text><rect x="115" y="292" width="116" height="34" rx="17" fill="#111a2e" stroke="#fbbf24" stroke-opacity="0.45"/><text x="173.0" y="314" text-anchor="middle" font-size="14.5" fill="#c9d1d9">TypeScript</text><rect x="241" y="292" width="116" height="34" rx="17" fill="#111a2e" stroke="#fbbf24" stroke-opacity="0.45"/><text x="299.0" y="314" text-anchor="middle" font-size="14.5" fill="#c9d1d9">Chrome MV3</text>
+    <text x="568" y="314" text-anchor="end" font-size="15" font-weight="700" fill="#fbbf24">View code ↗</text>
+  </g>
+</svg>

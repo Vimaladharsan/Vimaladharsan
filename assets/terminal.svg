@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="0.5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#ec4899"/>
+    </linearGradient>
+    <clipPath id="t1"><rect x="40" y="82" height="34" width="0"><animate attributeName="width" from="0" to="200" begin="0.3s" dur="0.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="t2"><rect x="40" y="150" height="34" width="0"><animate attributeName="width" from="0" to="300" begin="1.5s" dur="0.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="t3"><rect x="40" y="218" height="34" width="0"><animate attributeName="width" from="0" to="260" begin="2.8s" dur="0.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="t4"><rect x="40" y="286" height="34" width="0"><animate attributeName="width" from="0" to="300" begin="4.0s" dur="0.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="t5"><rect x="40" y="354" height="34" width="0"><animate attributeName="width" from="0" to="260" begin="5.3s" dur="0.5s" fill="freeze"/></rect></clipPath>
+    <style>
+      .mono{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace;font-size:21px}
+      .p{fill:#2dd4bf}.c{fill:#e6edf3}.o{fill:#a5b4cc}.v{fill:#c4b5fd}.k{fill:#f9a8d4}
+      .cursor{animation:blink 1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="468" rx="18" fill="#0a0f1c" stroke="url(#edge)" stroke-opacity="0.55" stroke-width="2"/>
+  <path d="M1 19a18 18 0 0 1 18-18h1162a18 18 0 0 1 18 18v31H1z" fill="#111a2e"/>
+  <circle cx="34" cy="26" r="7" fill="#ff5f56"/>
+  <circle cx="58" cy="26" r="7" fill="#ffbd2e"/>
+  <circle cx="82" cy="26" r="7" fill="#27c93f"/>
+  <text x="600" y="32" text-anchor="middle" font-family="'Segoe UI',Ubuntu,Arial,sans-serif" font-size="15" fill="#8b98b0">vimal@github: ~</text>
+
+  <g class="mono">
+    <!-- 1 -->
+    <text x="40" y="106" clip-path="url(#t1)"><tspan class="p">❯</tspan><tspan class="c"> whoami</tspan></text>
+    <g opacity="0"><set attributeName="opacity" to="1" begin="1s" fill="freeze"/>
+      <text x="64" y="138" class="o">S Vimaladharsan · <tspan class="v">Full-Stack Engineer</tspan> &amp; <tspan class="k">AI Systems Builder</tspan></text>
+    </g>
+    <!-- 2 -->
+    <text x="40" y="174" clip-path="url(#t2)"><tspan class="p">❯</tspan><tspan class="c"> cat focus.txt</tspan></text>
+    <g opacity="0"><set attributeName="opacity" to="1" begin="2.3s" fill="freeze"/>
+      <text x="64" y="206" class="o">AI agents that reason over verified data · secure backends · polished UIs</text>
+    </g>
+    <!-- 3 -->
+    <text x="40" y="242" clip-path="url(#t3)"><tspan class="p">❯</tspan><tspan class="c"> ls ~/stack</tspan></text>
+    <g opacity="0"><set attributeName="opacity" to="1" begin="3.5s" fill="freeze"/>
+      <text x="64" y="274" class="v">python  typescript  fastapi  express  react  angular  postgres  docker</text>
+    </g>
+    <!-- 4 -->
+    <text x="40" y="310" clip-path="url(#t4)"><tspan class="p">❯</tspan><tspan class="c"> ls ~/featured</tspan></text>
+    <g opacity="0"><set attributeName="opacity" to="1" begin="4.8s" fill="freeze"/>
+      <text x="64" y="342" class="k">groundtruth/  humanforge-ai/  hirely/  trustshare/  shopease/  focustube-ai/</text>
+    </g>
+    <!-- 5 -->
+    <text x="40" y="378" clip-path="url(#t5)"><tspan class="p">❯</tspan><tspan class="c"> echo $MOTTO</tspan></text>
+    <g opacity="0"><set attributeName="opacity" to="1" begin="6s" fill="freeze"/>
+      <text x="64" y="410" class="o">"Verify, then trust."</text>
+    </g>
+    <!-- prompt -->
+    <g opacity="0"><set attributeName="opacity" to="1" begin="6.6s" fill="freeze"/>
+      <text x="40" y="446"><tspan class="p">❯</tspan></text>
+      <rect class="cursor" x="64" y="428" width="12" height="24" fill="#2dd4bf"/>
+    </g>
+  </g>
+</svg>

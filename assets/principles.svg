@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210">
+  <defs><style>
+    .pp{opacity:0;animation:up .8s cubic-bezier(.2,.8,.2,1) forwards}
+    @keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+  </style></defs>
+  <g font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif">
+  <g class="pp" style="animation-delay:0.00s">
+    <rect x="6" y="6" width="282" height="198" rx="20" fill="#0d1424" stroke="#2dd4bf" stroke-opacity="0.45" stroke-width="1.5"/>
+    <circle cx="147" cy="58" r="30" fill="#2dd4bf" fill-opacity="0.12"><animate attributeName="r" values="28;33;28" dur="3s" begin="0.0s" repeatCount="indefinite"/></circle>
+    <text x="147" y="70" text-anchor="middle" font-size="32">🤖</text>
+    <text x="147" y="124" text-anchor="middle" font-size="19" font-weight="800" fill="#e6edf3">AI with guardrails</text>
+    <text x="147" y="154" text-anchor="middle" font-size="14.5" fill="#8b98b0">Models judge, code verifies.</text>
+    <text x="147" y="176" text-anchor="middle" font-size="14.5" fill="#8b98b0">Every AI feature has a fallback.</text>
+  </g><g class="pp" style="animation-delay:0.15s">
+    <rect x="306" y="6" width="282" height="198" rx="20" fill="#0d1424" stroke="#8b5cf6" stroke-opacity="0.45" stroke-width="1.5"/>
+    <circle cx="447" cy="58" r="30" fill="#8b5cf6" fill-opacity="0.12"><animate attributeName="r" values="28;33;28" dur="3s" begin="0.5s" repeatCount="indefinite"/></circle>
+    <text x="447" y="70" text-anchor="middle" font-size="32">🔐</text>
+    <text x="447" y="124" text-anchor="middle" font-size="19" font-weight="800" fill="#e6edf3">Security by design</text>
+    <text x="447" y="154" text-anchor="middle" font-size="14.5" fill="#8b98b0">JWT, bcrypt, RBAC, encryption</text>
+    <text x="447" y="176" text-anchor="middle" font-size="14.5" fill="#8b98b0">and server-side authority.</text>
+  </g><g class="pp" style="animation-delay:0.30s">
+    <rect x="606" y="6" width="282" height="198" rx="20" fill="#0d1424" stroke="#ec4899" stroke-opacity="0.45" stroke-width="1.5"/>
+    <circle cx="747" cy="58" r="30" fill="#ec4899" fill-opacity="0.12"><animate attributeName="r" values="28;33;28" dur="3s" begin="1.0s" repeatCount="indefinite"/></circle>
+    <text x="747" y="70" text-anchor="middle" font-size="32">🧩</text>
+    <text x="747" y="124" text-anchor="middle" font-size="19" font-weight="800" fill="#e6edf3">Clean architecture</text>
+    <text x="747" y="154" text-anchor="middle" font-size="14.5" fill="#8b98b0">Layered services, typed</text>
+    <text x="747" y="176" text-anchor="middle" font-size="14.5" fill="#8b98b0">schemas and migrations.</text>
+  </g><g class="pp" style="animation-delay:0.45s">
+    <rect x="906" y="6" width="282" height="198" rx="20" fill="#0d1424" stroke="#fbbf24" stroke-opacity="0.45" stroke-width="1.5"/>
+    <circle cx="1047" cy="58" r="30" fill="#fbbf24" fill-opacity="0.12"><animate attributeName="r" values="28;33;28" dur="3s" begin="1.5s" repeatCount="indefinite"/></circle>
+    <text x="1047" y="70" text-anchor="middle" font-size="32">⚡</text>
+    <text x="1047" y="124" text-anchor="middle" font-size="19" font-weight="800" fill="#e6edf3">Shipping discipline</text>
+    <text x="1047" y="154" text-anchor="middle" font-size="14.5" fill="#8b98b0">Tests, linters, pre-commit</text>
+    <text x="1047" y="176" text-anchor="middle" font-size="14.5" fill="#8b98b0">and CI on every push.</text>
+  </g>
+  </g>
+</svg>
