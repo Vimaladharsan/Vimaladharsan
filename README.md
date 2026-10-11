@@ -18,6 +18,16 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
+<!-- ═══════════════════════════ IMPACT ═══════════════════════════ -->
+<table align="center">
+<tr>
+<td align="center" width="190"><h2>10+</h2><sub><b>PROJECTS BUILT</b><br/>web · AI · desktop · extension</sub></td>
+<td align="center" width="190"><h2>3</h2><sub><b>AI PRODUCTS</b><br/>agents · NLP · LLM apps</sub></td>
+<td align="center" width="190"><h2>14</h2><sub><b>MCP TOOLS</b><br/>in one production agent</sub></td>
+<td align="center" width="190"><h2>161</h2><sub><b>TEST ASSERTIONS</b><br/>in a single codebase</sub></td>
+</tr>
+</table>
+
 <!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="34" /> About Me</h2>
 
@@ -115,6 +125,8 @@ class Vimaladharsan:
 
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=anthropic&logoColor=white" /> <img src="https://img.shields.io/badge/NitroStack-0A66FF?style=flat-square" /> <img src="https://img.shields.io/badge/GitHub_API-181717?style=flat-square&logo=github&logoColor=white" />
 
+<a href="https://github.com/Vimaladharsan/GroundTruth-NitroStack"><b>View code →</b></a>
+
 </td>
 <td width="50%" valign="top">
 
@@ -128,6 +140,8 @@ class Vimaladharsan:
 - Glassmorphic UI with full light/dark theming and lazy-loaded feature modules
 
 <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white" /> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" /> <img src="https://img.shields.io/badge/SQLite_WASM-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+
+<a href="https://github.com/Vimaladharsan/HumanForge-AI"><b>View code →</b></a>
 
 </td>
 </tr>
@@ -145,6 +159,8 @@ class Vimaladharsan:
 
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/spaCy-09A3D5?style=flat-square&logo=spacy&logoColor=white" /> <img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
 
+<a href="https://github.com/Vimaladharsan/Hirely"><b>View code →</b></a>
+
 </td>
 <td width="50%" valign="top">
 
@@ -158,6 +174,8 @@ class Vimaladharsan:
 - Production hygiene from day one: ruff, ESLint, pre-commit hooks, CI pipeline
 
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+
+<a href="https://github.com/Vimaladharsan/TrustShare-Encrypted-File-Sharing-Collaboration-Platform"><b>View code →</b></a>
 
 </td>
 </tr>
@@ -175,6 +193,8 @@ class Vimaladharsan:
 
 <img src="https://img.shields.io/badge/Angular_21-DD0031?style=flat-square&logo=angular&logoColor=white" /> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
 
+<a href="https://github.com/Vimaladharsan/ShopEase-ECommerce"><b>View code →</b></a>
+
 </td>
 <td width="50%" valign="top">
 
@@ -188,6 +208,8 @@ class Vimaladharsan:
 - Built on React + TypeScript with **CRXJS + Vite** for a modern extension toolchain
 
 <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
+
+<a href="https://github.com/Vimaladharsan/FocusTube-AI"><b>View code →</b></a>
 
 </td>
 </tr>
@@ -204,6 +226,42 @@ class Vimaladharsan:
 | [**Loopy Solver**](https://github.com/Vimaladharsan/Loopy_SimonTatham_Games) | Slitherlink puzzle logic with graph, greedy and sorting algorithm implementations | Python · DAA |
 
 </details>
+
+<!-- ═══════════════════════════ SPOTLIGHT ═══════════════════════════ -->
+<h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Sparkles.png" width="34" /> Architecture Spotlight: GroundTruth</h2>
+
+> **The design rule:** tools gather evidence and decide nothing; the model makes every judgement call.
+> That's how the agent can tell that a designer with no commits is fine, while an engineer with no commits *and* a "done" claim is not.
+
+```mermaid
+flowchart LR
+    E(["👤 Employee<br/>daily EOD report"]) --> S["submit_eod_report"]
+    G[("GitHub API<br/>commits + PRs")] --> C["crosscheck_activity"]
+    T["analyze_wellbeing_trend<br/>multi-day signals"]
+    S --> A{"🧠 Agent<br/>needs a human?"}
+    C --> A
+    T --> A
+    A -- "real gap or<br/>persistent blocker" --> M["send_manager_alert"]
+    A -- "innocent explanation" --> Q["stay quiet"]
+    M --> D(["📊 Manager digest"])
+    Q --> D
+```
+
+<!-- ═══════════════════════════ JOURNEY ═══════════════════════════ -->
+<h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" width="34" /> My Journey</h2>
+
+```mermaid
+timeline
+    2025 : Joined GitHub
+         : Algorithms deep-dive with the Loopy solver
+    Jun–Jul 2026 : Shipped 6 projects in 3 weeks
+                 : ShopEase · Game-Verse · Student MS
+                 : HumanForge AI · Hirely · FocusTube AI
+    Jul 2026 : Built GroundTruth, an AI agent on MCP
+             : 14 tools · 6 widgets · 161 test assertions
+    Oct 2026 : Building TrustShare
+             : Zero-trust encrypted file sharing
+```
 
 <!-- ═══════════════════════════ HIGHLIGHTS ═══════════════════════════ -->
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gem%20Stone.png" width="34" /> How I Engineer</h2>
