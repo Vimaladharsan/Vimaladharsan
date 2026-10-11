@@ -227,26 +227,6 @@ class Vimaladharsan:
 
 </details>
 
-<!-- ═══════════════════════════ SPOTLIGHT ═══════════════════════════ -->
-<h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Sparkles.png" width="34" /> Architecture Spotlight: GroundTruth</h2>
-
-> **The design rule:** tools gather evidence and decide nothing; the model makes every judgement call.
-> That's how the agent can tell that a designer with no commits is fine, while an engineer with no commits *and* a "done" claim is not.
-
-```mermaid
-flowchart LR
-    E(["👤 Employee<br/>daily EOD report"]) --> S["submit_eod_report"]
-    G[("GitHub API<br/>commits + PRs")] --> C["crosscheck_activity"]
-    T["analyze_wellbeing_trend<br/>multi-day signals"]
-    S --> A{"🧠 Agent<br/>needs a human?"}
-    C --> A
-    T --> A
-    A -- "real gap or<br/>persistent blocker" --> M["send_manager_alert"]
-    A -- "innocent explanation" --> Q["stay quiet"]
-    M --> D(["📊 Manager digest"])
-    Q --> D
-```
-
 <!-- ═══════════════════════════ JOURNEY ═══════════════════════════ -->
 <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" width="34" /> My Journey</h2>
 
